@@ -1,0 +1,31 @@
+﻿# Entornos virtuales de Python
+.venv/
+.venv-*/
+venv/
+env/
+
+# Caché y archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Datos, modelos y resultados generados por el proyecto
+/datos_senas/
+/proyecto_lsm/datos_senas/
+*.joblib
+*.npz
+
+# Empaquetado de la aplicación (PyInstaller y similares)
+/build/
+/dist/
+
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+
+# Archivos del sistema y temporales
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
